@@ -1,6 +1,10 @@
 # bhdl-vscode extension
 
-This extension add syntax highlights for BHDL keywords.
+This extension add syntax highlights for BHDL keywords. After installation, edit
+a `.rkt` file, and you will see syntax highlights for BHDL keywords, like the
+image below.
+
+![image](assets/example.png)
 
 ## Installation
 
