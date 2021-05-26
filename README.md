@@ -4,7 +4,7 @@ This extension add syntax highlights for BHDL keywords. After installation, edit
 a `.rkt` file (e.g. the [`test.bhdl.rkt`](test.bhdl.rkt) in this repo), and you will see syntax highlights for BHDL keywords, like the
 image below.
 
-<img src="assets/example.png" width="50%">
+<img src="assets/example.png" max-width="50%">
 
 ## Installation
 
