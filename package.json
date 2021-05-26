@@ -1,0 +1,28 @@
+{
+    "name": "bhdl",
+    "displayName": "bhdl-vscode",
+    "description": "",
+    "repository": "https://github.com/bhdl/bhdl-vscode",
+    "publisher": "lihebi",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "bhdl",
+            "aliases": ["bhdl", "bhdl"],
+            "extensions": ["bhdl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "bhdl",
+            "scopeName": "source.bhdl",
+            "path": "./syntaxes/bhdl.tmLanguage.json",
+            "injectTo": ["source.racket"]
+        }]
+    }
+}
