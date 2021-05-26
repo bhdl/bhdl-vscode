@@ -17,6 +17,10 @@ code --install-extension bhdl-0.0.1.vsix
 To remove the extension from your VSCode, you should be able to uninstall it in
 VSCode's extension manager.
 
+Please also install the
+[`magic-racket`](https://marketplace.visualstudio.com/items?itemName=evzen-wybitul.magic-racket)
+extension for regular racket's syntax highlights.
+
 ## Development
 
 Generating the `.vsix` file:
